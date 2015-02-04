@@ -69,6 +69,11 @@ function front_dyn_css()
 	$OBJ =& get_instance();
 	return $OBJ->front->front_dyn_css();
 }
+function front_dyn_desc()
+{
+	$OBJ =& get_instance();
+	return $OBJ->front->front_dyn_desc();
+}
 
 function front_dyn_js()
 {
